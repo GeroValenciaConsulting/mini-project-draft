@@ -1,6 +1,39 @@
+body {
+    background-color: #D3F5FF;
+    color: #004C74;
+}
 #navbarSupportedContent{
     text-align: center;
 }
 .dropdown-item {
     text-align: center;
+}
+nav.navbar {
+    background-color: #20D426;
+}
+footer {
+    background-color: #20D426;
+}
+.btn {
+    background-color: #20D426;
+}
+.caro {
+    margin: 1%;
+}
+a {
+    text-decoration: none;
+    color: #004C74;
+}
+ul.dropdown-menu {
+    background-color: #20D426;
+}
+a.nav-link {
+    color: #004C74;
+    font-weight: 700;
+}
+ul.navbar-nav {
+    margin-right: 5%;
+}
+p.accordion-content {
+    color: #004C74;
 }
