@@ -1,6 +1,19 @@
 body {
     background-color: #D3F5FF;
-    color: #004C74;
+    color: #3C6255;
+}
+
+h1 {
+    text-align: center;
+    margin: 2%;
+}
+
+p {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
 }
 #navbarSupportedContent{
     text-align: center;
@@ -9,26 +22,30 @@ body {
     text-align: center;
 }
 nav.navbar {
-    background-color: #20D426;
+    background-color: #3C6255;
 }
 footer {
-    background-color: #20D426;
+    background-color: #3C6255;
+    color: #FFDA83;
+    margin-bottom: 0;
+    padding-bottom:  0;
 }
 .btn {
-    background-color: #20D426;
+    background-color: #FFDA83;
+    color: #004C74;
 }
 .caro {
     margin: 1%;
 }
 a {
     text-decoration: none;
-    color: #004C74;
+    color: #BB762C;
 }
 ul.dropdown-menu {
-    background-color: #20D426;
+    background-color: #FFDA83;
 }
 a.nav-link {
-    color: #004C74;
+    color: #FFDA83;
     font-weight: 700;
 }
 ul.navbar-nav {
@@ -36,4 +53,17 @@ ul.navbar-nav {
 }
 p.accordion-content {
     color: #004C74;
+}
+
+ul li.socmed {
+    padding: 1%;
+    margin-top: 2%;
+}
+div.card-about {
+    padding: 2%;
+    margin: 1%;
+} 
+
+div.pastor {
+    background-color: #FFDA83;
 }

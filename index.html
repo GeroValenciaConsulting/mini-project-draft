@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/logo.ico">
+    <script src="https://kit.fontawesome.com/66f7066fbe.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -28,12 +29,12 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                Watch
+                                Activities
                                 </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Online</a></li>
-                                <li><a class="dropdown-item" href="#">Sermons</a></li>
-                                <li><a class="dropdown-item" href="#">Series</a></li>
+                                <li><a class="dropdown-item" href="#">Sunday Service</a></li>
+                                <li><a class="dropdown-item" href="#">Online Prayer Meeting</a></li>
+                                <li><a class="dropdown-item" href="#">Care Group</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -51,10 +52,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="./pages/about.html">Who We Are</a></li>
-                                    <li><a class="dropdown-item" href="#visit">What We Do</a></li>
-                                    
+                                    <li><a class="dropdown-item" href="#visit">What We Do</a></li>     
                                 </ul>
                         </li>
+                       
                         <li class="nav-item">
                                 <a class="nav-link" href="#about">Events</a>
                         </li>        
@@ -116,25 +117,96 @@
     <main>
         <!-- About Section -->
         <section id="about">
-                <h1>About Us</h1>
+                <h1>ABOUT US</h1>
                 <div class="container-fluid">
-                  
-
-                </div>
-
-
-                <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                      <div class="card">
-                        <div class="card-body">
-                          <h5 class="card-title">Memory Verse</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <iframe width="100%" height="50%" src="https://www.youtube.com/embed/jJOqZ4OP31k" title="Memory Verse memory verse 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                          
+                  <div class="card-group">
+                    <div class="card card-about">
+                      <img src="./images/mission_church.jpg" class="card-img-top" alt="mission">
+                      <div class="card-body">
+                        <p class="card-text">To help people change or transform their lives and become faithful servants of Jesus Christ through the preaching and teaching of the Word of God (Bible).</p>
+                      </div>
+                    </div>
+                    <div class="card card-about">
+                      <img src="./images/vision_church.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">To build a strong church through the training, equipping and discipling of individuals and families based on the principles of the Word of God.</p>
+                      </div>
+                    </div>
+                    <div class="card card-about">
+                      <img src="./images/statement of faith.jpg" class="card-img-top" alt="statement-of-faith">
+                      <div class="card-body">
+                        <p class="card-text">We believe the Bible to be the inspired, the only infallible, authoritative Word of God.</p>
+                        <!-- <a href="#" class="btn float-end">Learn More</a> -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Learn More
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Statement of Faith</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <ul class="list-unstyled">
+                                  <li><strong>Article I</strong></li>
+                                  <p class="accordion-content">We believe the Holy Scriptures of the Old and New Testaments to be the verbally inspired Word of God, the final authority for faith and life, without error in the original writings, infallible, and God-breathed (2 Tim 3:16, 17; Matt 5:18; 2 Pet 1:20-21; John 16:12, 13).</p>
+                                  <li><strong>Article II</strong></li>
+                                  <p class="accordion-content">We believe in one triune God, eternally existing in Three Persons —Father, Son, and Holy Spirit — co-eternal in being, co-identical in nature, co-equal in power and glory, and having the same attributes and perfections (Deut 6:4; 2 Cor 13:14). </p>
+                                  <li><strong>Article III</strong></li>
+                                  <p class="accordion-content">We believe that the eternal Son of God became man, without ceasing to be God, having been conceived by the Holy Spirit and born of the Virgin Mary, in order that He, the Lord Jesus Christ, might reveal God and redeem sinful men (John 1:1, 2, 14; Luke 1:35). We believe that He accomplished our redemption through His death on the cross as a representative, vicarious, substitutionary sacrifice; and that our justification is made sure by His literal, physical resurrection from the dead (Rom 3:24-25; 1 Pet 1:3-5). We believe that the Lord Jesus Christ ascended to heaven, and is now exalted at the right hand of God, where, as our High Priest, He fulfills the ministry of Representative, Intercessor, and Advocate (Acts 1:9, 10; Heb 7:25; 9:24; Rom 8:34; 1 John 2:1, 2).</p>
+                                  <li><strong>Article IV</strong></li>
+                                  <p class="accordion-content">We believe that the Holy Spirit, the third Person of the Trinity, though omnipresent from all eternity, took up His abode in the world in a special sense on the day of Pentecost according to the divine promise, dwells in every believer, and by His baptism, which occurs at conversion, unites all believers to Christ in one body, and that He, as the indwelling One, is the source of all power and all acceptable worship and service (John 14:16,17; 16:7-15; 1 Cor 6:19; Eph 2:22). </p>
+                                  <li><strong>Article V</strong></li>
+                                  <p class="accordion-content">We believe that man was created in the image and likeness of God, but that in Adam's sin the race fell, inherited a sinful nature, and became alienated from God; and that man is totally depraved and thus of himself utterly unable to remedy His lost condition (Gen 1:26, 27; Eph 2:1-3; Rom 3:22, 23; 5:12). </p>
+                                  <li><strong>Article VI</strong></li>
+                                  <p class="accordion-content">We believe that salvation is a gift, made available through the grace of God totally apart from meritorious works on the part of sinful men, and must be personally appropriated by faith in Jesus Christ (John 1:12; 5:24; Acts 4:12; Rom 4:4, 5; Gal 3:10-14; Eph 2:8, 9). We believe it is the privilege of believers to rejoice in the assurance of their salvation as taught by God's Word. We believe the Bible clearly forbids the use of Christian liberty as an occasion for the flesh (Rom 8:16; 13:13; Gal 5:13; Tit 2:11-15; 1 John 5:13).</p>
+                                  <li><strong>Article VII</strong></li>
+                                  <p class="accordion-content">We believe that the Church, which is the body and espoused bride of Christ, is a spiritual organism made up of born-again persons (Eph 1:22, 23; 5:25-27; 1 Cor 12:12-14; 2 Cor 11:2). We believe that the establishment and continuance of local churches is clearly taught and defined in the New Testament Scriptures (Acts 14:27; 20:17, 28- 32; 1 Tim 3:1-13; Tit 1:5-11). We believe that the Lord Jesus Christ left two ordinances to be observed by the local church in commemoration of His person and work. The one is that of baptism in the name of the Father, Son, and Holy Spirit. The other is the partaking of the Lord's Supper (Matt 28:19, 20; Acts 2:41, 46, 47; 16:33; 1 Cor 11:23-32). </p>
+                                  <li><strong>Article VIII</strong></li>
+                                  <p class="accordion-content">We believe in the bodily resurrection of all people, the saved to eternal life and the unsaved to judgment and everlasting punishment (Matt 25:44; John 14:1-3; 1 Thess 1:10; 4:13-17). </p>
+                                  <li><strong>Article IX</strong></li>
+                                  <p class="accordion-content">We believe in the sure return of the Lord Jesus Christ to establish His kingdom on earth, that this second coming will be a literal, bodily, personal return; and that His coming for His bride, the Church, constitutes the "blessed hope" set before us, for which we should be constantly looking (Matt 24:27, 30, 44; John 14:1-3; 1 Thess 1:10; 4:13-17). </p>
+                                  <li><strong>Article X</strong></li>
+                                  <p class="accordion-content">We believe that it is the obligation of the saved to witness by life and by word to the truths of the Holy Scripture and to seek to proclaim the Gospel to all mankind (Mark 16:15; Acts 1:8; 2 Cor 5:19, 20). </p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="card card-about">
+                      <img src="./images/core values.jpg" class="card-img-top" alt="core-values">
+                      <div class="card-body">
+                        <p class="card-text">Church core values are brief statements that convey beliefs and guide decisions.</p>
+                        <a href="about" class="btn float-end btn-success">Learn More</a>
+                      </div>
+                    </div>
+                    
+                  </div>
+
+                </div>
+                <h1>WORSHIP</h1>
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Memory Verse</h5>
+                          <iframe width="350" height="638" src="https://www.youtube.com/embed/YQyIvzRJnDM?list=PLYrYzC3gGKO7PaWw62FesE14uL2-Eu-65" title="#memory verse 333941433 9168425069864590 1472202978224015134 n" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <br>
+                          <a href="#" class="btn btn-success mt-1">Find Out More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
                       <div class="card">
                         <div class="card-body">
                           <h5 class="card-title">Verse of the Day</h5>
@@ -152,7 +224,22 @@
                                  Mga kapatid pahalagahan po natin ang pagbabasa ng biblia dahil ang Dios ay nagtuturo ng karunungan sa pamamagitan ng biblia. Kung tayo po ay puspos ng karunungan ng Dios ay hindi tayo maililigaw ng mga bulaang apostol at guro at maninindigan tayo sa tama kahit maging laban pa sa atin ang lahat.
                             <br>
                                  Tandaan po natin ang pangako ng Dios sa v7 na “Ang magtagumpay, ay siya kong pakakanin ng punong kahoy ng buhay, na nasa Paraiso ng Dios.”. Kaya mga kapatid sa pananampalataya, manatili tayong tapat sa Panginoon hanggang wakas ng ating buhay.</p></p>
-                          <a href="#" class="btn btn-success">Learn More</a>
+                          <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                </div>
+                <h1>LEADERSHIP</h2>
+                  <div class="container-fluid">
+                    <div class="col-md-6">
+                      <h4>Meet Our Pastor</h4>
+                      <div class="pastor card mb-5 p-3">
+                        <img class="rounded-bottom-circle m-2 p-2" src="./images/pastor.jpg" class="card-img-top" alt="pastor">
+                        <div class="pastor card-body">
+                          <h5 class="card-title">Pastor Jorge Limas Jr.</h5>
+                          <p class="card-text">Ptr. Jorge Limas Jr. has been teaching and preaching the Word of God for many years. He came to know the Lord when he was 16 years old and that changed his life dramatically. He became involve in the Music Ministry before he went to a full-time pastor of TGCCM-Molino. He plays the piano and guitar. He was trained at Asian Theological Seminary in Quezon City and got Master of Divinity degree major in Theology. He and his wife lives in Imus, Cavite. They have three children.</p>
                         </div>
                       </div>
                     </div>
@@ -162,68 +249,48 @@
             <h1>Let Us Pray</h1>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6">
-                        <form>
-                            <h3>Prayer Request Form</h3>
-                            <div class="mb-3">
-                              <label for="fname" class="form-label">Who Needs Prayer?</label>
-                              <input type="text" class="form-control" id="fname" aria-describedby="">
-                              <div id="fname" class="form-text">Input First Name and Last Name
-                              </div>
-                              <label for="relationship" class="form-label">What is their relationship to you:</label>
-                              <input type="text" class="form-control" id="fname" aria-describedby="">
-                              <div id="relationship" class="form-text">
-                              </div>
-                              <label for="prayer-need" class="form-label">What is the Prayer Need?</label>
-                              <div id="prayer-need"><textarea name="prayer-need" id="prayer-need" cols="80" rows="10"></textarea></div>
-                              
-                              <div id="prayer-need" class="form-text">                                
-                              </div>
-                                
-                              <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">How can we contact you?</label>
-                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">Input Email Here</div>
-                                <input type="text" class="form-control" id="InputNumber" aria-describedby="">
-                                <div id="Number" class="form-text">Input Mobile Number</div>
-                              </div>
-                                <button type="submit" class="btn btn-success">Submit</button>
-                        </form>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <div class="col-3">
-                            <img src="images/prayer (1).jpg" alt="" height="100%">
-                           
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
            
         </section>
     </main>
-    <footer>
-        <section id="visit">
-            <!-- Columns section before footer -->
+    <footer id="visit">
             <div class="container-fluid row align-items-center pt-3 pb-5 m-0">
-                <div class="col-4">
+                <div class="col-md-6">
                     <p class="fw-bold" mt-0>
                         CONNECT WITH US
                     </p>
                   <div class="row align-items-center">
-                    <img src="./images/socmed.png" alt="soc med">
-                  </div>
+                    <div class="mb-4"><i class="fa-solid fa-location-dot"></i>
+                      TGCCM -Molino <br>
+                      Progressive 20-21, Molino 1, Bacoor Cavite <br>
+                      <a href="tel: +046 4380203">046 4380203</a>/ <a href="tel: 09175467265">09175467265</a>
+                    </div>
+                      
+                    <ul class="list-unstyled">
+                      <a class="text-decoration-none" href="https://www.facebook.com/groups/188800638248888"><li class="socmed d-inline"><i class="fa-brands fa-facebook fa-4x"></i></li></a>
+                      
+                      <li class="socmed d-inline"><i class="fa-brands fa-facebook-messenger fa-4x"></i></li>
+                      <li class="socmed d-inline"><i class="fa-brands fa-youtube fa-4x"></i></li>
+                      <li class="socmed d-inline"><i class="fa-solid fa-square-envelope fa-4x"></i></li>
+                      <li class="socmed d-inline"><i class="fa-brands fa-square-twitter fa-4x"></i></i></li>
+                    </ul>
+                  </div>  
+                    
+                    
                 </div>
         
-                <div class="col-4">
+                <div class="col-md-6">
                     <p class="fw-bold mb-3">SITE MAP</p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.50524015798803!2d120.97686090223023!3d14.422330128131097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d3e567e38723%3A0xcf826d4bc869afa6!2sThe%20Great%20Commission%20Christian%20Ministry%20Molino!5e0!3m2!1sfil!2sph!4v1679406120987!5m2!1sfil!2sph" width="100%" height="50%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-4">
-                  <p class="fw-bold mb-3">ADDRESS AND CONTACT DETAILS</p>
-                </div>         
+                
+                </div>
+                <p class="text-center mb-0 pb-2">©TGCCM-Molino | 2023</p>         
             </div>
-        </section>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
