@@ -1,11 +1,13 @@
 body {
     background-color: #D3F5FF;
     color: #3C6255;
+    font-family: Montserrat;
 }
 
 h1 {
     text-align: center;
     margin: 2%;
+    font-weight: 700;
 }
 
 p {
@@ -14,6 +16,12 @@ p {
 
 h2 {
     text-align: center;
+    font-weight: 400;
+    color: #3C6255;
+}
+
+li {
+    color: #3C6255;
 }
 #navbarSupportedContent{
     text-align: center;
@@ -39,10 +47,17 @@ footer {
 }
 a {
     text-decoration: none;
-    color: #BB762C;
+    color: #FFDA83;
 }
+
+a.connect {
+    text-decoration: none;
+    color: #3C6255;
+}
+
 ul.dropdown-menu {
     background-color: #FFDA83;
+    color: #3C6255;
 }
 a.nav-link {
     color: #FFDA83;
@@ -66,4 +81,12 @@ div.card-about {
 
 div.pastor {
     background-color: #FFDA83;
+}
+nav.navbar-min {
+    background-color: #3C6255;
+    color: #FFDA83;
+}
+
+a.navbar-brand {
+    color: #FFDA83;
 }
